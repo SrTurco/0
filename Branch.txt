@@ -5,6 +5,23 @@ Para crear una nueva rama, usas el comando git branch <nombre_rama>
 Para cambiar a una rama existente, usas el comando: git checkout <nombre_rama>
 Para crear una nueva rama y cambiar a ella simultáneamente, puedes usar: git checkout -b <nombre_rama>
 
+Eliminar una Rama
+Para eliminar una rama local que ya no necesitas, usas: git branch -d <nombre_rama>
+
+Flujo de Trabajo con Branches
+Crear una Nueva Rama y Cambiar a Ella: git checkout -b feature/nueva-funcionalidad
+
+Hacer Cambios y Crear Commits:
+ git add archivo_modificado.py
+ git commit -m "Añadida nueva funcionalidad"
+
+Empujar la Rama al Repositorio Remoto: git push origin feature/nueva-funcionalida
+
+Fusionar la Rama con main: Cambia a la rama main:
+git checkout main
+
+Fusiona los cambios: git merge feature/nueva-funcionalidad
+
 
 Las ramas en Git son herramientas poderosas que permiten el desarrollo paralelo y la gestión de versiones de manera eficiente, 
 asegurando que el código principal del proyecto permanezca estable y libre de errores hasta que las nuevas características estén listas para ser integradas.
