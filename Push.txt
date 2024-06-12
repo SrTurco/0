@@ -1,0 +1,3 @@
+Push: es utilizado para subir los cambios locales a un repositorio remoto
+
+El comando general para hacer un push es git push <nombre_remoto> <nombre_rama>

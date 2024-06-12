@@ -1,0 +1,10 @@
+Branch: (rama) es una línea de desarrollo independiente que permite trabajar en diferentes características, 
+correcciones de errores o experimentos sin afectar el código principal del proyecto.
+
+Para crear una nueva rama, usas el comando git branch <nombre_rama>
+Para cambiar a una rama existente, usas el comando: git checkout <nombre_rama>
+Para crear una nueva rama y cambiar a ella simultáneamente, puedes usar: git checkout -b <nombre_rama>
+
+
+Las ramas en Git son herramientas poderosas que permiten el desarrollo paralelo y la gestión de versiones de manera eficiente, 
+asegurando que el código principal del proyecto permanezca estable y libre de errores hasta que las nuevas características estén listas para ser integradas.

@@ -1,0 +1,8 @@
+Commit: Registro de cambios realizado en el repositorio local.
+
+El proceso típico para hacer un commit en Git incluye los siguientes pasos:
+ Realizas cambios en los archivos de tu proyecto.
+ Seleccionas los cambios que quieres incluir en el commit. (git add <archivo> # Añadir un archivo específico; git add . # Añadir todos los cambios en el directorio actual)
+ Guardas los cambios en el historial del repositorio con un mensaje descriptivo. (git commit -m "Descripción de los cambios realizados")
+
+Puedes ver el historial de commits de tu proyecto usando git log
